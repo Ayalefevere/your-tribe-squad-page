@@ -1,0 +1,61 @@
+/* Header */
+
+    /* Styling van de header vlak met navigatiemenu    */
+        header { 
+        display: flex;
+        background-color: white;
+        border-bottom: 1px solid grey;
+        justify-content: center;
+        }
+
+    /* De tekst styling van navigatiemenu in de header    */
+        header ul { 
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        margin: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        }
+
+@media (min-width: 1024px) {
+    /* Styling van de header vlak met navigatiemenu    */
+        header { 
+        display: flex;
+        background-color: white;
+        border-bottom: 1px solid grey;
+        justify-content: start;
+        }
+
+    /* De tekst styling van navigatiemenu in de header    */
+        header ul { 
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        margin: 0px;
+        padding-left: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        }
+    }
+
+
+    /* Navigatiemenu link tekst in de header  */
+        li a { 
+        font-size: 20px;
+        color: black;
+        text-decoration: none;
+        }
+
+    /* Dit is voor als je over de link gaat met je muis in de navigatiemenu in de header     */
+        li a:hover {
+            text-decoration: underline;
+            text-decoration-color: rgb(249, 217, 91);
+            }
+
+        /* Dit is styling voor de pagina die je op dat moment bezoek     */   
+        li a.active {
+            text-decoration: underline;
+            text-decoration-color: rgb(244, 61, 6);
+            text-underline-offset: 5px;
+            }
