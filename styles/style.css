@@ -148,3 +148,15 @@ max-width: 1000px
             .information span {
                 font-weight: bold;
                 }
+
+    /* Dit is om de website link te stylen         */
+            .website span { 
+            text-decoration: none;
+            color: rgb(209, 72, 13);
+            }   
+
+            .website a { 
+            color: darkblue; 
+            text-decoration: none;
+            }
+
