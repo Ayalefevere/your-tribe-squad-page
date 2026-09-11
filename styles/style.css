@@ -59,3 +59,15 @@
             text-decoration-color: rgb(244, 61, 6);
             text-underline-offset: 5px;
             }
+    /* Voor de titel van de pagina */
+        h1 {
+        font-size: 50px;
+        margin-top: 1em;
+        }
+
+    /* Intro tekst van de pagina     */
+        .intro {
+        font-size: 20px;
+        width: 90%;
+        font-weight: bold;
+        }
