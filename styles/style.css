@@ -104,3 +104,28 @@ max-width: 1000px
         width: 90%;
         font-weight: bold;
         }
+
+    /* De container vlak om de teksten naast elkaar te krijgen en te stylen - vlak met informatie over ons studiejaar    */
+        .container {
+        display: flex;
+        width: 100%;
+        border: 1px solid lightgrey;
+        background-color: white;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        }
+
+        /* Styling voor het stukje tekst in de container dus het item */
+            .item {
+                flex: 1;
+                border-right: 1px solid lightgray;
+                align-content: center;
+                text-align: center;
+            }
+
+        /* Belangrijke woord in het item heeft een 'span' om het te verduidelijken     */    
+            .item span {
+                font-weight: bold;
+                font-size: 20px;
+            }
+        
