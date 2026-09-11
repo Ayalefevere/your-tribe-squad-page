@@ -75,6 +75,8 @@ max-width: 1000px
             text-decoration-color: rgb(244, 61, 6);
             text-underline-offset: 5px;
             }
+
+            
 /* Footer */  
 
     /* Dit is voor de footer vlak*/
@@ -91,6 +93,9 @@ max-width: 1000px
                 color:grey;
                 font-size: 13px;
                 }
+
+
+/* Home pagina */
 
     /* Voor de titel van de pagina */
         h1 {
