@@ -160,3 +160,28 @@ max-width: 1000px
             text-decoration: none;
             }
 
+
+    /* AMSTELCAMPUS PAGINA */
+        /* Dit is voor het container blokje met informatie over de campus dat kun je hiermee stylen */
+            article {
+            width: 100%;
+            border: 1px solid lightgrey;
+            background-color: white;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            }
+
+        /* Dit is styling voor de 'span' tekst gedeelte in de container    */
+            article span { 
+            font-weight: bold;
+            }
+
+        /* Om de 2 sections van de rand te krijgen van de container     */
+            section {
+            padding-left: 30px;
+            padding-right: 30px;
+            }
+
+
