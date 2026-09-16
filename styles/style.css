@@ -102,6 +102,7 @@ max-width: 1000px
         background-color: #e6e6e6;
         margin-bottom: 50px;
         margin-top: 50px;
+        border-radius: 3px;
         }
 
         /* Styling voor het stukje tekst in de container dus het item */
@@ -130,6 +131,7 @@ max-width: 1000px
             margin-bottom: 50px;
             padding: 15px 20px 15px 30px;
             box-sizing: border-box;
+            border-radius: 3px;
             }    
 
         /* Dit is voor de tekst in het informatie vlak - de p */
@@ -166,6 +168,7 @@ max-width: 1000px
             grid-template-columns: 1fr 1fr;
             margin-top: 50px;
             margin-bottom: 50px;
+            border-radius: 3px;
             }
 
         /* Dit is styling voor de 'span' tekst gedeelte in de container    */
@@ -285,6 +288,7 @@ max-width: 1000px
                         padding-left: 10px;
                         box-sizing: border-box;
                         cursor: pointer;
+                        border-radius: 3px;
                         }
 
                 /* Dit is voor het gedeelte als je op de dropdown hebt gedrukt     */
