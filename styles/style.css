@@ -133,6 +133,11 @@ max-width: 1000px
                 font-weight: bold;
                 font-size: 20px;
             }
+
+        /* Om de tekst aan te passen in de container         */    
+            .item p {
+                color: black;
+            }
         
     /* Dit container stukje is voor de informatie over de opleiding en status opleiding. Hiermee kun je het vlak stylen.        */
         .information {
@@ -154,12 +159,14 @@ max-width: 1000px
                 font-weight: bold;
                 }
 
-    /* Dit is om de website link te stylen         */
+
+    /* Dit is om de pijl te stylen van website link        */    
             .website span { 
             text-decoration: none;
             color: rgb(209, 72, 13);
             }   
 
+    /* Dit is om de website link te stylen         */        
             .website a { 
             color: darkblue; 
             text-decoration: none;
@@ -296,4 +303,35 @@ max-width: 1000px
                         box-sizing: border-box;
                         cursor: pointer;
                         }
+
+                /* Dit is voor het gedeelte als je op de dropdown hebt gedrukt     */
+                    details {
+                    background-color: #2e2e2e;  
+                    border-radius: 3px;
+                    }
+
+                /* De lijst in de details     */    
+                    details li { 
+                    padding: 10px;
+                    }
+
+                    details ul {
+                        padding-right: 10px;
+                    }
+
+                 /* Voor de link   */  
+                    details a {
+                        font-size: 16px;
+                        text-decoration: none;
+                        color: rgb(0, 0, 211);
+                    }
+
+                /* Voor als je hover de link hovert     */      
+                    details a:hover {
+                        color: rgb(183, 0, 0);
+                        text-decoration: none;
+                    }
+
+
+
             
