@@ -178,7 +178,7 @@ max-width: 1000px
             }
 
         /* Om de 2 sections van de rand te krijgen van de container     */
-            section {
+            article section {
             padding-left: 30px;
             padding-right: 30px;
             }
