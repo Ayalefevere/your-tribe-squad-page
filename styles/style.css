@@ -189,6 +189,79 @@ max-width: 1000px
             padding-right: 30px;
             }
 
+/* CAROUSEL FOTOS GEBOUWEN VAN DE CAMPUS */
+
+/* Dit is voor het blokje van de carrousel */
+    .carrousel {
+    margin-left: -260px;
+    margin-right: -260px;
+    margin-bottom: 50px;
+    height: 360px;
+    background-color: #6e6e6e;
+    overflow: hidden;
+    }   
+
+    /* Titel in de carrousel */
+        .carrousel h2 {
+        padding-top: 20px;
+        padding-left: 260px;
+        color: white;
+        }
+
+    /* Hierin zitten alle cards met de foto's, teksten en buttons     */
+        .carrousel .group {
+        display: flex;
+        gap: 20px;  
+        animation: scroll 15s linear infinite;
+        /* overflow-x: auto; */
+        }        
+
+        /* Dit is voor de animatie zodat de groep met foto's, teksten en buttons bewegen */
+            @keyframes scroll {
+                to { 
+                    transform: translateX(-50%)
+                }
+            }
+
+        /* Voor de card met de foto, tekst en button     */
+            .carrousel .card {
+            position: relative;
+            }
+
+            /* Voor de foto in de card */
+                .carrousel .card img {
+                width: 400px;
+                height: 250px;
+                object-fit: cover;
+                }
+
+             /* Voor de tekst en button in de card */    
+                .campus-tekst {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                padding: 20px;      
+                }
+
+            /* De tekst in de card  */
+                .carrousel h3 {
+                color: white;
+                text-shadow: 1px 1px black;
+                }
+
+             /* De button in de card  */    
+                .carrousel .card button {
+                width: 80px;
+                height: 30px;
+                background-color: #2e2e2e;
+                border-radius: 5px;
+                color: white;
+                border: 1px solid transparent;
+                cursor: pointer;
+                }
+
+
 
         /* Voorzieningen dropdown */
 
