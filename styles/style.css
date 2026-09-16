@@ -23,25 +23,6 @@ max-width: 1000px
         display: flex;
         background-color: white;
         border-bottom: 1px solid grey;
-        justify-content: center;
-        }
-
-    /* De tekst styling van navigatiemenu in de header    */
-        header ul { 
-        list-style: none;
-        display: flex;
-        gap: 40px;
-        margin: 0px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        }
-
-@media (min-width: 1024px) {
-    /* Styling van de header vlak met navigatiemenu    */
-        header { 
-        display: flex;
-        background-color: white;
-        border-bottom: 1px solid grey;
         justify-content: start;
         }
 
