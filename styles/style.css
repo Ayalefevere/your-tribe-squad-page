@@ -269,14 +269,6 @@ max-width: 1000px
                     align-items: start;
                     }
 
-                /* Dit is voor het gedeelte als je op de dropdown hebt gedrukt     */
-                    details {
-                    background-color: rgb(236, 236, 236);  
-                    }
-
-                    details li { 
-                    padding: 10px;
-                    }
 
                 /* Styling voor het vlak en tekst van het onderwerpen kopje      */
                     summary {
