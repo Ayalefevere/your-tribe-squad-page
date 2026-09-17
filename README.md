@@ -33,7 +33,8 @@ Om de eerstejaar Squad van 2026/27 beter te leren kennen kun je het visitekaartj
 **Foto van homepagina op dekstop en mobile.**
 
 <img width="1516" height="692" alt="Home - desktop" src="https://github.com/user-attachments/assets/f4560232-b892-4c4b-a62c-2a2dd51c7ed5" />
-<img width="607" height="830" alt="Home - mobile" src="https://github.com/user-attachments/assets/af09bbc4-85c3-440d-93f8-457cc4387e99" />
+<img width="601" height="837" alt="Home - mobile" src="https://github.com/user-attachments/assets/a6205233-53f5-4eaa-b4bf-1a5c84f6815c" />
+
 
 
 **Foto van Amstelcampus pagina op dekstop en mobile.**
