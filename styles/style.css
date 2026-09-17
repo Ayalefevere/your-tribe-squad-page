@@ -1,63 +1,9 @@
-
-/* Styling van de hele pagina */
-
-body {
-font-family: arial;
-margin: 0px;
-background:  linear-gradient(150deg, #2A0F35 0%, #101A33 100%);
-color: white;
-}
-
-/* Breedte van de pagina onder de header. In de main staat de belangrijke inhoud van de website */
-main {
-margin-left: auto;
-margin-right: auto;
-max-width: 1000px
-}
+/* DESKTOP VERSION */
 
 
-/* Header */
-
-    /* Styling van de header vlak met navigatiemenu    */
-        header { 
-        display: flex;
-        background-color: transparent;
-        border-bottom: 1px solid grey;
-        justify-content: start;
-        }
-
-    /* De tekst styling van navigatiemenu in de header    */
-        header ul { 
-        list-style: none;
-        display: flex;
-        gap: 40px;
-        margin: 0px;
-        padding-left: 50px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        }
-
-    /* Navigatiemenu link tekst in de header  */
-        li a { 
-        font-size: 20px;
-        color: black;
-        text-decoration: none;
-        color: white;
-        }
-
-    /* Dit is voor als je over de link gaat met je muis in de navigatiemenu in de header     */
-        li a:hover {
-            text-decoration: underline;
-            text-decoration-color: rgb(20, 0, 171);
-            text-underline-offset: 5px;
-            }
-
-        /* Dit is styling voor de pagina die je op dat moment bezoek     */   
-        li a.active {
-            text-decoration: underline;
-            text-decoration-color: rgb(244, 61, 6);
-            text-underline-offset: 5px;
-            }
+@media screen and (min-width: 1000px) {
+    
+    /* Styling van de hele pagina */
 
             
 /* Footer */  
