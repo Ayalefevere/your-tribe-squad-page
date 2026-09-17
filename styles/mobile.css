@@ -156,8 +156,8 @@
         
         /* Dit is voor het blokje van de carrousel */
         .carrousel {
-        margin-left: -260px;
-        margin-right: -260px;
+        margin-left: -40px;
+        margin-right: -40px;
         margin-bottom: 50px;
         height: 360px;
         background-color: #6e6e6e;
