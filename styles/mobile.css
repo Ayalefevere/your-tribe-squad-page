@@ -8,6 +8,7 @@
     background:  linear-gradient(150deg, #2A0F35 0%, #101A33 100%);
     color: white;
     margin: 0;
+    overflow-x: hidden;
     }
 
 
