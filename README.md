@@ -1,7 +1,7 @@
 
 # Squad page
 
-In deze squad page leer je de eerstejaar studenten van FDND beter kennen en ook lees je meer over de Amstelcampus.
+In deze squad page leer je de eerstejaar studenten van FDND beter kennen en je leer meer over de Amstelcampus.
 
 ## Inhoudsopgave
 
@@ -30,17 +30,22 @@ Om de eerstejaar Squad van 2026/27 beter te leren kennen kun je het visitekaartj
 
 
 ## Etalage
-Foto van homepagina op dekstop en mobile (Mobile komt nog)
-<img width="1012" height="765" alt="screenshot-home" src="https://github.com/user-attachments/assets/c45e9646-2a05-49af-b1df-5e51a37161a9" />
+**Foto van homepagina op dekstop en mobile.**
+
+<img width="1516" height="692" alt="Home - desktop" src="https://github.com/user-attachments/assets/f4560232-b892-4c4b-a62c-2a2dd51c7ed5" />
+<img width="607" height="830" alt="Home - mobile" src="https://github.com/user-attachments/assets/af09bbc4-85c3-440d-93f8-457cc4387e99" />
 
 
-Foto van amstelcampus op dekstop en mobile (Mobile komt nog)
+**Foto van Amstelcampus pagina op dekstop en mobile.**
 
-<img width="1013" height="665" alt="screenshot-amstelcampus" src="https://github.com/user-attachments/assets/e2ac54c3-4fe1-4611-a8ac-d1c08d30a32b" />
+<img width="1895" height="867" alt="Amstelcampus - desktop" src="https://github.com/user-attachments/assets/5abbfe07-77ed-430c-972c-525ecacd2384" />
+<img width="601" height="832" alt="Amstelcampus - mobile" src="https://github.com/user-attachments/assets/b382672d-3b3d-4296-9eb0-b154e7a0d1ff" />
 
-Foto van studenten op dekstop en mobile
 
-(DEZE KOMEN NOG.)
+**Foto van studenten pagina op dekstop en mobile. (Foto's komen nog. Jesper maakt deze pagina)**
+
+<img width="1896" height="862" alt="Studenten - desktop" src="https://github.com/user-attachments/assets/35d2a8ef-a62c-42ff-bc20-9d023a6bdf97" />
+<img width="602" height="560" alt="Studenten - mobile" src="https://github.com/user-attachments/assets/e2590031-cc84-4fcd-a869-019fe06746c9" />
 
 
 ## Kenmerken
