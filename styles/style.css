@@ -5,261 +5,314 @@
     
     /* Styling van de hele pagina */
 
-            
-/* Footer */  
+    body {
+    font-family: arial;
+    margin: 0px;
+    background:  linear-gradient(150deg, #2A0F35 0%, #101A33 100%);
+    color: white;
+    }
 
-    /* Dit is voor de footer vlak*/
-        footer {
+    /* Breedte van de pagina onder de header. In de main staat de belangrijke inhoud van de website */
+    main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    }
+
+
+    /* Header */
+
+        /* Styling van de header vlak met navigatiemenu    */
+            header { 
             display: flex;
-            gap: 20px;
-            border-top: 1px solid grey;
-            margin-top: 100px;
-            height: 50px;
-            align-items: center;
+            border-bottom: 1px solid grey;
             }
 
-        /* Dit is voor de footer tekst */
-            footer p {
+        /* De tekst styling van navigatiemenu in de header    */
+            header ul { 
+            list-style: none;
+            display: flex;
+            gap: 50px;
+            margin: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-left: 10px;
+            }
+
+        /* Navigatiemenu link tekst in de header  */
+            li a { 
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+            color: white;
+            }
+
+        /* Dit is voor als je over de link gaat met je muis in de navigatiemenu in de header     */
+            li a:hover {
+                text-decoration: underline;
+                text-decoration-color: rgb(20, 0, 171);
+                text-underline-offset: 5px;
+                }
+
+            /* Dit is styling voor de pagina die je op dat moment bezoek     */   
+            li a.active {
+                text-decoration: underline;
+                text-decoration-color: rgb(244, 61, 6);
+                text-underline-offset: 5px;
+                }
+
+                
+    /* Footer */  
+
+        /* Dit is voor de footer vlak*/
+            footer {
+                display: flex;
+                justify-content: start;
+                column-gap: 30px;
+                border-top: 1px solid grey;
+                margin-top: 100px;
+                }
+
+            /* Dit is voor de footer tekst */
+                footer p {
                 padding-left: 50px;
                 color:white;
                 font-size: 12px;
                 }
 
 
-/* Home pagina */
+    /* Home pagina */
 
-    /* Voor de titel van de pagina */
-        h1 {
-        font-size: 50px;
-        margin-top: 1em;
-        }
-
-    /* Intro tekst van de pagina     */
-        .intro {
-        font-size: 20px;
-        width: 90%;
-        font-weight: bold;
-        color: lightgray;
-        }
-
-    /* De container vlak om de teksten naast elkaar te krijgen en te stylen - vlak met informatie over ons studiejaar    */
-        .container {
-        display: flex;
-        width: 100%;
-        border: 1px solid lightgrey;
-        background-color: #e6e6e6;
-        margin-bottom: 50px;
-        margin-top: 50px;
-        border-radius: 3px;
-        }
-
-        /* Styling voor het stukje tekst in de container dus het item */
-            .item {
-                flex: 1;
-                border-right: 1px solid lightgray;
-                align-content: center;
-                text-align: center;
+        /* Voor de titel van de pagina */
+            h1 {
+            font-size: 50px;
+            margin-top: 1em;
             }
 
-        /* Belangrijke woord in het item heeft een 'span' om het te verduidelijken     */    
-            .item span {
-                font-weight: bold;
-                font-size: 20px;
-            }
-
-        /* Om de tekst aan te passen in de container         */    
-            .item p {
-                color: black;
-            }
-        
-    /* Dit container stukje is voor de informatie over de opleiding en status opleiding. Hiermee kun je het vlak stylen.        */
-        .information {
-            width: 100%;
-            background-color:#2e2e2e;
-            margin-bottom: 50px;
-            padding: 15px 20px 15px 30px;
-            box-sizing: border-box;
-            border-radius: 3px;
-            }    
-
-        /* Dit is voor de tekst in het informatie vlak - de p */
-            .information p {
-                color: white;
-                }
-
-       /* Dit is voor de tekst in het informatie vlak - onderwerp dikgedrukt */         
-            .information span {
-                font-weight: bold;
-                }
-
-
-    /* Dit is om de pijl te stylen van website link        */    
-            .website span { 
-            text-decoration: none;
-            color: rgb(215, 54, 0);
-            }   
-
-    /* Dit is om de website link te stylen         */        
-            .website a { 
-            color: white; 
-            text-decoration: none;
-            font-size: 17px;
-            }
-
-
-    /* AMSTELCAMPUS PAGINA */
-        /* Dit is voor het container blokje met informatie over de campus dat kun je hiermee stylen */
-            article {
-            width: 100%;
-            /* border: 1px solid lightgrey; */
-            background-color: #2e2e2e;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            border-radius: 3px;
-            }
-
-        /* Dit is styling voor de 'span' tekst gedeelte in de container    */
-            article span { 
+        /* Intro tekst van de pagina     */
+            .intro {
+            font-size: 20px;
+            width: 90%;
             font-weight: bold;
+            color: lightgray;
             }
 
-        /* Om de 2 sections van de rand te krijgen van de container     */
-            article section {
-            padding-left: 30px;
-            padding-right: 30px;
+        /* De container vlak om de teksten naast elkaar te krijgen en te stylen - vlak met informatie over ons studiejaar    */
+            .container {
+            display: flex;
+            width: 100%;
+            border: 1px solid lightgrey;
+            background-color: #e6e6e6;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            border-radius: 3px;
             }
 
-/* CAROUSEL FOTOS GEBOUWEN VAN DE CAMPUS */
-
-/* Dit is voor het blokje van de carrousel */
-    .carrousel {
-    margin-left: -260px;
-    margin-right: -260px;
-    margin-bottom: 50px;
-    height: 360px;
-    background-color: #6e6e6e;
-    overflow: hidden;
-    }   
-
-    /* Titel in de carrousel */
-        .carrousel h2 {
-        padding-top: 20px;
-        padding-left: 260px;
-        color: white;
-        }
-
-    /* Hierin zitten alle cards met de foto's, teksten en buttons     */
-        .carrousel .group {
-        display: flex;
-        gap: 20px;  
-        animation: scroll 15s linear infinite;
-        /* overflow-x: auto; */
-        }        
-
-        /* Dit is voor de animatie zodat de groep met foto's, teksten en buttons bewegen */
-            @keyframes scroll {
-                to { 
-                    transform: translateX(-50%)
-                }
-            }
-
-        /* Voor de card met de foto, tekst en button     */
-            .carrousel .card {
-            position: relative;
-            }
-
-            /* Voor de foto in de card */
-                .carrousel .card img {
-                width: 400px;
-                height: 250px;
-                object-fit: cover;
+            /* Styling voor het stukje tekst in de container dus het item */
+                .item {
+                    flex: 1;
+                    border-right: 1px solid lightgray;
+                    align-content: center;
+                    text-align: center;
                 }
 
-             /* Voor de tekst en button in de card */    
-                .campus-tekst {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                padding: 20px;      
+            /* Belangrijke woord in het item heeft een 'span' om het te verduidelijken     */    
+                .item span {
+                    font-weight: bold;
+                    font-size: 20px;
                 }
 
-            /* De tekst in de card  */
-                .carrousel h3 {
-                color: white;
-                text-shadow: 1px 1px black;
+            /* Om de tekst aan te passen in de container         */    
+                .item p {
+                    color: black;
+                    font-size: 16px;
                 }
+            
+        /* Dit container stukje is voor de informatie over de opleiding en status opleiding. Hiermee kun je het vlak stylen.        */
+            .information {
+                width: 100%;
+                background-color:#2e2e2e;
+                margin-bottom: 50px;
+                padding: 15px 20px 15px 30px;
+                box-sizing: border-box;
+                border-radius: 3px;
+                }    
 
-             /* De button in de card  */    
-                .carrousel .card button {
-                width: 80px;
-                height: 30px;
-                background-color: #2e2e2e;
-                border-radius: 5px;
-                color: white;
-                border: 1px solid transparent;
-                cursor: pointer;
-                }
-
-
-
-        /* Voorzieningen dropdown */
-
-            /* Dit is voor het container blokje van de voorzieningen met de dropdowns */
-                .onderwerpen {
-                    display: grid;
-                    column-gap: 40px;
-                    row-gap: 20px;
-                    grid-template-columns: 1fr 1fr;
-
-                    align-items: start;
+        /* Dit is voor de tekst in het informatie vlak - onderwerp dikgedrukt */         
+                .information span {
+                    font-weight: bold;
                     }
 
 
-                /* Styling voor het vlak en tekst van het onderwerpen kopje      */
-                    summary {
-                        font-size: 20px;
-                        font-weight: bold;
-                        width:100%;
-                        height: 50px;
-                        background-color: #2e2e2e;
-                        align-content: center;
-                        padding-left: 10px;
-                        box-sizing: border-box;
-                        cursor: pointer;
+        /* Dit is om de pijl te stylen van website link        */    
+                .website span { 
+                text-decoration: none;
+                color: rgb(215, 54, 0);
+                }   
+
+        /* Dit is om de website link te stylen         */        
+                .website a { 
+                color: white; 
+                text-decoration: none;
+                font-size: 17px;
+                }
+
+
+        /* AMSTELCAMPUS PAGINA */
+            /* Dit is voor het container blokje met informatie over de campus dat kun je hiermee stylen */
+                article {
+                width: 100%;
+                background-color: #2e2e2e;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                border-radius: 3px;
+                }
+
+            /* Dit is styling voor de 'span' tekst gedeelte in de container    */
+                article span { 
+                font-weight: bold;
+                }
+
+            /* Om de 2 sections van de rand te krijgen van de container     */
+                article section {
+                padding-left: 30px;
+                padding-right: 30px;
+                }
+
+    /* CAROUSEL FOTOS GEBOUWEN VAN DE CAMPUS */
+
+    /* Dit is voor het blokje van de carrousel */
+        .carrousel {
+        margin-left: -260px;
+        margin-right: -260px;
+        margin-bottom: 50px;
+        height: 360px;
+        background-color: #6e6e6e;
+        overflow: hidden;
+        }   
+
+        /* Titel in de carrousel */
+            .carrousel h2 {
+            padding-top: 20px;
+            padding-left: 260px;
+            color: white;
+            }
+
+        /* Hierin zitten alle cards met de foto's, teksten en buttons     */
+            .carrousel .group {
+            display: flex;
+            gap: 20px;  
+            animation: scroll 15s linear infinite;
+            /* overflow-x: auto; */
+            }        
+
+            /* Dit is voor de animatie zodat de groep met foto's, teksten en buttons bewegen */
+                @keyframes scroll {
+                    to { 
+                        transform: translateX(-50%)
+                    }
+                }
+
+            /* Voor de card met de foto, tekst en button     */
+                .carrousel .card {
+                position: relative;
+                }
+
+                /* Voor de foto in de card */
+                    .carrousel .card img {
+                    width: 400px;
+                    height: 250px;
+                    object-fit: cover;
+                    }
+
+                /* Voor de tekst en button in de card */    
+                    .campus-tekst {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    padding: 20px;      
+                    }
+
+                /* De tekst in de card  */
+                    .carrousel h3 {
+                    color: white;
+                    text-shadow: 1px 1px black;
+                    }
+
+                /* De button in de card  */    
+                    .carrousel .card button {
+                    width: 80px;
+                    height: 30px;
+                    background-color: #2e2e2e;
+                    border-radius: 5px;
+                    color: white;
+                    border: 1px solid transparent;
+                    cursor: pointer;
+                    }
+
+
+
+            /* Voorzieningen dropdown */
+
+                /* Dit is voor het container blokje van de voorzieningen met de dropdowns */
+                    .onderwerpen {
+                        display: grid;
+                        column-gap: 40px;
+                        row-gap: 20px;
+                        grid-template-columns: 1fr 1fr;
+                        }
+
+
+                    /* Styling voor het vlak en tekst van het onderwerpen kopje      */
+                        summary {
+                            font-size: 20px;
+                            font-weight: bold;
+                            width:100%;
+                            height: 50px;
+                            background-color: #2e2e2e;
+                            align-content: center;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                            cursor: pointer;
+                            border-radius: 3px;
+                            }
+
+                    /* Dit is voor de dropdown als die nog dicht is, dus niet op gedrukt     */
+                        details {
+                        background-color: transparent;  
                         border-radius: 3px;
                         }
 
-                /* Dit is voor het gedeelte als je op de dropdown hebt gedrukt     */
-                    details {
-                    background-color: #2e2e2e;  
-                    border-radius: 3px;
-                    }
+                        /* Dit is voor de dropdown open is, dus op geklikt     */
+                            details:open {
+                            background-color: #2e2e2e;  
+                            border-radius: 3px;
+                            } 
 
-                /* De lijst in de details     */    
-                    details li { 
-                    padding: 10px;
-                    }
+                        /* De lijst in de details     */    
+                            details li { 
+                            padding: 10px;
+                            }
 
-                    details ul {
-                        padding-right: 10px;
-                    }
+                            details ul {
+                                padding-right: 10px;
+                            }
 
-                 /* Voor de link   */  
-                    details a {
-                        font-size: 16px;
-                        text-decoration: none;
-                        color: rgb(0, 0, 211);
-                    }
+                        /* Voor de link   */  
+                            details a {
+                                font-size: 16px;
+                                text-decoration: none;
+                                color: red;
+                            }
 
-                /* Voor als je hover de link hovert     */      
-                    details a:hover {
-                        color: rgb(183, 0, 0);
-                        text-decoration: none;
-                    }
+                        /* Voor als je hover de link hovert     */      
+                            details a:hover {
+                                color: blue;
+                                text-decoration: none;
+                            }
 
 
-
-            
+}
