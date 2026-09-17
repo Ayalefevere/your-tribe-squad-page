@@ -161,7 +161,6 @@
         margin-bottom: 50px;
         height: 350px;
         background-color: #6e6e6e;
-        overflow: hidden;
         }   
 
         /* Titel in de carrousel */
@@ -194,7 +193,7 @@
 
                 /* Voor de foto in de card */
                     .carrousel .card img {
-                    width: 400px;
+                    width:300px;
                     height: 250px;
                     object-fit: cover;
                     }
