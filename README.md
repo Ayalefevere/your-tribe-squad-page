@@ -1,19 +1,19 @@
 
 # Squad page
 
-In deze squad page leer je de eerstejaar studenten van FDND beter kennen en ook lees je meer over de Amstelcampus.
+In deze squad page leer je de eerstejaar studenten van FDND beter kennen en je leer meer over de Amstelcampus.
 
 ## Inhoudsopgave
 
-* [Beschrijving]([url](https://github.com/Ayalefevere/your-tribe-squad-page#beschrijving))
-* [Gebruik]([url](https://github.com/Ayalefevere/your-tribe-squad-page/edit/main/README.md#gebruik))
-* [Etalage]([url](https://github.com/Ayalefevere/your-tribe-squad-page/edit/main/README.md#etalage))
-* [Kenmerken]([url](https://github.com/Ayalefevere/your-tribe-squad-page/edit/main/README.md#kenmerken))
-* [Ons Team]([url](https://github.com/Ayalefevere/your-tribe-squad-page/edit/main/README.md#ons-team))
-* [Bronnen]([url](https://github.com/Ayalefevere/your-tribe-squad-page/edit/main/README.md#bronnen))
+* Beschrijving
+* Gebruik
+* Etalage
+* Kenmerken
+* Ons Team
+* Bronnen
 
 ## Beschrijving
-Dit is een squad page gemaakt door eerstejaars studenten van de opleiding Frontend Design & Development 2026/27. De squad page bestaat uit 3 pagina's: home, Amstelcampus en studenten. Door de visitekaartjes van de studenten op een pagina te zetten heb je een mooi overzicht wie er in onze squad zit en je vindt informatie en locaties van de Amstelcampus. De website is responsive en eerst gemaakt en ontwerpen op desktop en daarna voor mobile (mobile moet nog komen).
+Dit is een squad page gemaakt door eerstejaars studenten van de opleiding Frontend Design & Development 2026/27. De squad page bestaat uit 3 pagina's: home, Amstelcampus en studenten. Door de visitekaartjes van de studenten op een pagina te zetten heb je een mooi overzicht wie er in onze squad zit en je vindt informatie en locaties van de Amstelcampus. De website is responsive en eerst gemaakt en ontwerpen op desktop en daarna voor mobile.
 
 Hier staat de website: https://ayalefevere.github.io/your-tribe-squad-page/
 
@@ -30,24 +30,30 @@ Om de eerstejaar Squad van 2026/27 beter te leren kennen kun je het visitekaartj
 
 
 ## Etalage
-Foto van homepagina op dekstop en mobile (Mobile komt nog)
-<img width="1012" height="765" alt="screenshot-home" src="https://github.com/user-attachments/assets/c45e9646-2a05-49af-b1df-5e51a37161a9" />
+**Foto van homepagina op dekstop en mobile.**
+
+<img width="1516" height="692" alt="Home - desktop" src="https://github.com/user-attachments/assets/f4560232-b892-4c4b-a62c-2a2dd51c7ed5" />
+<img width="601" height="837" alt="Home - mobile" src="https://github.com/user-attachments/assets/a6205233-53f5-4eaa-b4bf-1a5c84f6815c" />
 
 
-Foto van amstelcampus op dekstop en mobile (Mobile komt nog)
 
-<img width="1013" height="665" alt="screenshot-amstelcampus" src="https://github.com/user-attachments/assets/e2ac54c3-4fe1-4611-a8ac-d1c08d30a32b" />
+**Foto van Amstelcampus pagina op dekstop en mobile.**
 
-Foto van studenten op dekstop en mobile
+<img width="1895" height="867" alt="Amstelcampus - desktop" src="https://github.com/user-attachments/assets/5abbfe07-77ed-430c-972c-525ecacd2384" />
+<img width="601" height="832" alt="Amstelcampus - mobile" src="https://github.com/user-attachments/assets/b382672d-3b3d-4296-9eb0-b154e7a0d1ff" />
 
-(DEZE KOMEN NOG.)
+
+**Foto van studenten pagina op dekstop en mobile. (Foto's komen nog. Jesper maakt deze pagina)**
+
+<img width="1896" height="862" alt="Studenten - desktop" src="https://github.com/user-attachments/assets/35d2a8ef-a62c-42ff-bc20-9d023a6bdf97" />
+<img width="602" height="560" alt="Studenten - mobile" src="https://github.com/user-attachments/assets/e2590031-cc84-4fcd-a869-019fe06746c9" />
 
 
 ## Kenmerken
 De squad page is gemaakt in HTML, CSS en JavasSript.
 
 ## Ons team
-Het team bestaat uit Aya Lefevere en Jesper Koning. Wij hebben allebei aan deze squad page gewerkt. Meer informatie over ons vind je op de studenten pagina met de visitekaartje.
+Het team bestaat uit Aya Lefevere en Jesper Koning. Wij hebben allebei aan deze squad page gewerkt. In de footer van de website zie je ook de makers. Meer informatie over ons vind je op de studenten pagina met de visitekaartje.
 
 Op deze 3 dingen zijn wij trots: 
 * Het design
