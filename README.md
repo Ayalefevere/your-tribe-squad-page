@@ -47,7 +47,7 @@ Foto van studenten op dekstop en mobile
 De squad page is gemaakt in HTML, CSS en JavasSript.
 
 ## Ons team
-Het team bestaat uit Aya Lefevere en Jesper Koning. Wij hebben allebei aan deze squad page gewerkt. Meer informatie over ons vind je op de studenten pagina met de visitekaartje.
+Het team bestaat uit Aya Lefevere en Jesper Koning. Wij hebben allebei aan deze squad page gewerkt. In de footer van de website zie je ook de makers. Meer informatie over ons vind je op de studenten pagina met de visitekaartje.
 
 Op deze 3 dingen zijn wij trots: 
 * Het design
