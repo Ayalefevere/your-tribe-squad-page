@@ -182,7 +182,7 @@
             /* Dit is voor de animatie zodat de groep met foto's, teksten en buttons bewegen */
                 @keyframes scroll {
                     to { 
-                        transform: translateX(-50%)
+                        transform: translateX(-80%)
                     }
                 }
 
