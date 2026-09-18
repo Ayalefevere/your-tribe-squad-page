@@ -32,21 +32,24 @@ Om de eerstejaar Squad van 2026/27 beter te leren kennen kun je het visitekaartj
 ## Etalage
 **Foto van homepagina op dekstop en mobile.**
 
-<img width="1516" height="692" alt="Home - desktop" src="https://github.com/user-attachments/assets/f4560232-b892-4c4b-a62c-2a2dd51c7ed5" />
-<img width="601" height="837" alt="Home - mobile" src="https://github.com/user-attachments/assets/a6205233-53f5-4eaa-b4bf-1a5c84f6815c" />
+<img width="492" height="780" alt="Home pagina - mobile" src="https://github.com/user-attachments/assets/82608c9f-92e1-44bd-a322-a22330bc94e8" />
+<img width="1897" height="861" alt="Home pagina - desktop" src="https://github.com/user-attachments/assets/bc16deaf-9ba3-47ed-996d-1835ee55ede6" />
+
 
 
 
 **Foto van Amstelcampus pagina op dekstop en mobile.**
 
-<img width="1895" height="867" alt="Amstelcampus - desktop" src="https://github.com/user-attachments/assets/5abbfe07-77ed-430c-972c-525ecacd2384" />
-<img width="601" height="832" alt="Amstelcampus - mobile" src="https://github.com/user-attachments/assets/b382672d-3b3d-4296-9eb0-b154e7a0d1ff" />
+<img width="492" height="772" alt="Amstelcampus pagina - mobile" src="https://github.com/user-attachments/assets/5f334cf5-baad-48b1-8e1b-70688c523d14" />
+<img width="1897" height="862" alt="Amstelcampus pagina - desktop" src="https://github.com/user-attachments/assets/7a9b2dc9-2720-49ce-98c4-64943800cb27" />
 
 
-**Foto van studenten pagina op dekstop en mobile. (Foto's komen nog. Jesper maakt deze pagina)**
 
-<img width="1896" height="862" alt="Studenten - desktop" src="https://github.com/user-attachments/assets/35d2a8ef-a62c-42ff-bc20-9d023a6bdf97" />
-<img width="602" height="560" alt="Studenten - mobile" src="https://github.com/user-attachments/assets/e2590031-cc84-4fcd-a869-019fe06746c9" />
+**Foto van studenten pagina op dekstop en mobile.**
+
+<img width="492" height="782" alt="Visitekaartjes pagina - mobile" src="https://github.com/user-attachments/assets/dc69eafa-458f-4148-b417-4b1e4bc83fdd" />
+<img width="1897" height="861" alt="Visitekaartjes pagina - desktop" src="https://github.com/user-attachments/assets/391f3022-da1e-42fe-bda0-2693df51e27e" />
+
 
 
 ## Kenmerken
