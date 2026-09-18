@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(150deg, #2A0F35 0%, #101A33 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Nav */
+
+.nav {
+    overflow-x: auto;
+    background: linear-gradient(150deg, #2A0F35 0%, #101A33 100%);
+    border-bottom: 1px solid #dcdcd8;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    border-right: 1px solid #dcdcd8;
+}
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 50px;
+}
+
+.nav ul li.active {
+    background-color: transparent;
+    border-bottom: 4px solid #e25b38;
+    margin-bottom: -1px;
+}
+
+.nav ul li.active a {
+    font-weight: bold;
+}
+
+/* Main */
+
+.main h2 {
+    font-family: 'Space Grotesk';
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.main p {
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+/* Carousel — compacte previews met autoscroll */
+
+.carousel-viewport {
+  overflow-x: auto;
+  width: 100%;
+  margin-top: 32px;
+  padding: 16px 0;
+  scrollbar-width: thin;
+  scrollbar-color: #B9BCB3 transparent;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 16px;
+    width: max-content;
+    animation: scroll-left 200s linear infinite;
+    gap: 24px;
+}
+
+.carousel-viewport:hover .carousel-track {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+
+.card {
+    flex-shrink: 0;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-decoration: none;
+    border: 1.5px dashed #B9BCB3;
+    padding: 16px;
+}
+
+.card:hover {
+    border-color: orangered;
+}
+
+.foto {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background-color: #2A0F35;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.naam {
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.tag {
+    color: orangered;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .carousel-track {
+        animation: none;
+    }
+    .carousel-viewport {
+        overflow-x: auto;
+    }
+}
+
+/* Footer */
+
+footer {
+    border-top: 1px solid grey;
+    font-family: 'Space Grotesk';
+    text-align: center;
+    padding-top: 20px;
+    border-color: grey;
+    color: grey;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 225px;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+    .nav ul li a {
+        padding: 12px 15px;
+    }
+}
