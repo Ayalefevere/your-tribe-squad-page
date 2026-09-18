@@ -213,11 +213,6 @@
         }   
 
 
-    /* h2 voorzieningen */
-        h2 {
-            font-family: 'Space Grotesk';
-        }
-
      /* Titel in de carrousel */
             .carrousel h2 {
             padding-top: 20px;
@@ -292,6 +287,11 @@
                         font-family: 'Space Grotesk';
                         }
 
+
+                        /* h2 voorzieningen */
+                            h2 {
+                            font-family: 'Space Grotesk';
+                            }
 
                     /* Styling voor het vlak en tekst van het onderwerpen kopje      */
                         summary {
