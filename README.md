@@ -53,7 +53,7 @@ Om de eerstejaar Squad van 2026/27 beter te leren kennen kun je het visitekaartj
 De squad page is gemaakt in HTML, CSS en JavasSript.
 
 ## Ons team
-Het team bestaat uit Aya Lefevere en Jesper Koning. Wij hebben allebei aan deze squad page gewerkt. In de footer van de website zie je ook de makers. Meer informatie over ons vind je op de studenten pagina met de visitekaartje.
+Het team bestaat uit Aya Lefevere en Jesper Koning. Wij hebben allebei aan deze squad page gewerkt. In de footer van de website zie je wie de makers zijn. Meer informatie over ons vind je op de studenten pagina met de visitekaartje.
 
 Op deze 3 dingen zijn wij trots: 
 * Het design
