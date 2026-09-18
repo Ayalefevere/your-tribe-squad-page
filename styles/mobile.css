@@ -14,9 +14,12 @@
 
     /* Breedte van de pagina onder de header. In de main staat de belangrijke inhoud van de website */
     main {
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     }
+
+
+
 
 /* Header */
 
@@ -65,7 +68,7 @@
 
     /* Voor de titel van de pagina */
         h1 {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 1em;
         }
 
@@ -79,7 +82,8 @@
 
     /* De container vlak om de teksten naast elkaar te krijgen en te stylen - vlak met informatie over ons studiejaar    */
         .container {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
         border: 1px solid lightgrey;
         background-color: #e6e6e6;
@@ -248,7 +252,6 @@
                             height: 50px;
                             background-color: #2e2e2e;
                             align-content: center;
-                            padding-left: 10px;
                             cursor: pointer;
                             border-radius: 3px;
                             }
@@ -263,6 +266,7 @@
                             details:open {
                             background-color: #2e2e2e;  
                             border-radius: 3px;
+                            padding: 0px 0px;
                             } 
 
 
@@ -272,14 +276,14 @@
                             }
 
                             details ul {
-                                padding-right: 10px;
+                            padding-right: 10px;
                             }
 
                         /* Voor de link   */  
                             details a {
-                                font-size: 16px;
-                                text-decoration: none;
-                                color: red;
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: red;
                             }
 
                         /* Voor als je hover de link hovert     */      
@@ -306,3 +310,5 @@
             footer p {
                 font-size: 12px;
                 }
+
+
