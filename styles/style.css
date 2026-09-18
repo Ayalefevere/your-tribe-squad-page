@@ -226,7 +226,6 @@
             display: flex;
             gap: 20px;  
             animation: scroll 20s linear infinite;
-            /* overflow-x: auto; */
             }        
 
             /* Dit is voor de animatie zodat de groep met foto's, teksten en buttons bewegen */

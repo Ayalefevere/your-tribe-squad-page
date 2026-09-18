@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 
 /* MOBILE VERSION */
 
@@ -70,6 +73,7 @@
         h1 {
         font-size: 30px;
         margin-top: 1em;
+        font-family: 'Space Grotesk';
         }
 
     /* Intro tekst van de pagina     */
@@ -78,6 +82,7 @@
         width: 90%;
         font-weight: bold;
         color: lightgray;
+        font-family: 'Space Grotesk';
         }
 
     /* De container vlak om de teksten naast elkaar te krijgen en te stylen - vlak met informatie over ons studiejaar    */
@@ -109,6 +114,7 @@
             .item p {
                 color: black;
                 font-size: 15px;
+                font-family: 'Space Grotesk';
             }
 
 
@@ -120,8 +126,9 @@
                         padding: 15px 20px 15px 30px;
                         box-sizing: border-box;
                         border-radius: 3px;
+                        font-family: 'Space Grotesk';
                         }    
-
+                        
                 /* Dit is voor de tekst in het informatie vlak - onderwerp dikgedrukt */         
                         .information span {
                             font-weight: bold;
@@ -132,6 +139,7 @@
             .website span { 
             text-decoration: none;
             color: rgb(215, 54, 0);
+            font-family: 'Space Grotesk';
             }   
 
         /* Dit is om de website link te stylen         */        
@@ -139,6 +147,7 @@
                 color: white; 
                 text-decoration: none;
                 font-size: 17px;
+                font-family: 'Space Grotesk';
                 }
 
 /* Dit is voor het container blokje met informatie over de campus dat kun je hiermee stylen */
@@ -151,6 +160,7 @@
         border-radius: 3px;
         padding-top: 10px;
         padding-bottom: 10px;
+        font-family: 'Space Grotesk';
         }
 
         /* Dit is styling voor de 'span' tekst gedeelte in de container    */
@@ -178,6 +188,7 @@
             padding-top: 20px;
             color: white;
             padding-left: 40px;
+            font-family: 'Space Grotesk';
             }
 
         /* Hierin zitten alle cards met de foto's, teksten en buttons     */
@@ -186,7 +197,6 @@
             gap: 20px;  
             width: max-content;
             animation: scroll 35s linear infinite;
-            /* overflow-x: auto; */
             }        
 
             /* Dit is voor de animatie zodat de groep met foto's, teksten en buttons bewegen */
@@ -241,8 +251,13 @@
                     .onderwerpen {
                         display: grid;
                         row-gap: 20px;
+                        font-family: 'Space Grotesk';
                         }
 
+                    /* h2 voorzieningen */
+                        h2 {
+                            font-family: 'Space Grotesk';
+                            }
 
                     /* Styling voor het vlak en tekst van het onderwerpen kopje      */
                         summary {
@@ -254,6 +269,7 @@
                             align-content: center;
                             cursor: pointer;
                             border-radius: 3px;
+                            font-family: 'Space Grotesk';
                             }
 
                      /* Dit is voor de dropdown als die nog dicht is, dus niet op gedrukt     */
@@ -309,6 +325,7 @@
         /* Dit is voor de footer tekst */
             footer p {
                 font-size: 12px;
+                font-family: 'Space Grotesk';
                 }
 
 
