@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
 /* DESKTOP VERSION */
 
 @media (max-width: 600px) {
@@ -75,7 +78,7 @@
         /* Dit is voor de footer vlak*/
             footer {
                 display: flex;
-                justify-content: start;
+                justify-content: center;
                 column-gap: 30px;
                 border-top: 1px solid grey;
                 margin-top: 100px;
@@ -86,6 +89,7 @@
                 padding-left: 50px;
                 color:white;
                 font-size: 12px;
+                font-family: 'Space Grotesk';
                 }
 
 
@@ -95,6 +99,7 @@
             h1 {
             font-size: 50px;
             margin-top: 1em;
+            font-family: 'Space Grotesk';
             }
 
         /* Intro tekst van de pagina     */
@@ -103,6 +108,7 @@
             width: 90%;
             font-weight: bold;
             color: lightgray;
+            font-family: 'Space Grotesk';
             }
 
         /* De container vlak om de teksten naast elkaar te krijgen en te stylen - vlak met informatie over ons studiejaar    */
@@ -134,6 +140,7 @@
                 .item p {
                     color: black;
                     font-size: 16px;
+                    font-family: 'Space Grotesk';
                 }
             
         /* Dit container stukje is voor de informatie over de opleiding en status opleiding. Hiermee kun je het vlak stylen.        */
@@ -144,6 +151,7 @@
                 padding: 15px 20px 15px 30px;
                 box-sizing: border-box;
                 border-radius: 3px;
+                font-family: 'Space Grotesk';
                 }    
 
         /* Dit is voor de tekst in het informatie vlak - onderwerp dikgedrukt */         
@@ -156,6 +164,7 @@
                 .website span { 
                 text-decoration: none;
                 color: rgb(215, 54, 0);
+                font-family: 'Space Grotesk';
                 }   
 
         /* Dit is om de website link te stylen         */        
@@ -163,6 +172,7 @@
                 color: white; 
                 text-decoration: none;
                 font-size: 17px;
+                font-family: 'Space Grotesk';
                 }
 
 
@@ -176,6 +186,7 @@
                 margin-top: 50px;
                 margin-bottom: 50px;
                 border-radius: 3px;
+                font-family: 'Space Grotesk';
                 }
 
             /* Dit is styling voor de 'span' tekst gedeelte in de container    */
@@ -201,11 +212,18 @@
         overflow: hidden;
         }   
 
-        /* Titel in de carrousel */
+
+    /* h2 voorzieningen */
+        h2 {
+            font-family: 'Space Grotesk';
+        }
+
+     /* Titel in de carrousel */
             .carrousel h2 {
             padding-top: 20px;
             padding-left: 260px;
             color: white;
+            font-family: 'Space Grotesk';
             }
 
         /* Hierin zitten alle cards met de foto's, teksten en buttons     */
@@ -271,6 +289,7 @@
                         column-gap: 40px;
                         row-gap: 20px;
                         grid-template-columns: 1fr 1fr;
+                        font-family: 'Space Grotesk';
                         }
 
 
@@ -286,6 +305,7 @@
                             box-sizing: border-box;
                             cursor: pointer;
                             border-radius: 3px;
+                            font-family: 'Space Grotesk';
                             }
 
                     /* Dit is voor de dropdown als die nog dicht is, dus niet op gedrukt     */
