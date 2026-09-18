@@ -270,6 +270,8 @@
                             cursor: pointer;
                             border-radius: 3px;
                             font-family: 'Space Grotesk';
+                            box-sizing: border-box;
+                            padding-left: 10px;
                             }
 
                      /* Dit is voor de dropdown als die nog dicht is, dus niet op gedrukt     */
