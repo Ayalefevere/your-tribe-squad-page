@@ -32,23 +32,20 @@ Om de eerstejaar Squad van 2026/27 beter te leren kennen kun je het visitekaartj
 ## Etalage
 **Foto van homepagina op dekstop en mobile.**
 
-<img width="492" height="780" alt="Home pagina - mobile" src="https://github.com/user-attachments/assets/82608c9f-92e1-44bd-a322-a22330bc94e8" />
-<img width="1897" height="861" alt="Home pagina - desktop" src="https://github.com/user-attachments/assets/bc16deaf-9ba3-47ed-996d-1835ee55ede6" />
-
-
+<img width="1897" height="862" alt="home pagina - desktop" src="https://github.com/user-attachments/assets/4ba66c8f-5bd0-4266-a2cf-f0b07112351f" />
+<img width="370" height="776" alt="home pagina - mobile" src="https://github.com/user-attachments/assets/b4209277-50ea-4cfb-b4fc-3ec5845dd7e1" />
 
 
 **Foto van Amstelcampus pagina op dekstop en mobile.**
 
-<img width="492" height="772" alt="Amstelcampus pagina - mobile" src="https://github.com/user-attachments/assets/5f334cf5-baad-48b1-8e1b-70688c523d14" />
-<img width="1897" height="862" alt="Amstelcampus pagina - desktop" src="https://github.com/user-attachments/assets/7a9b2dc9-2720-49ce-98c4-64943800cb27" />
-
+<img width="1901" height="857" alt="amstelcampus pagina - desktop" src="https://github.com/user-attachments/assets/749c5299-6667-4763-a494-4d4257d045f5" />
+<img width="372" height="776" alt="amstelcampus pagina - mobile" src="https://github.com/user-attachments/assets/0149fee6-3e90-46cf-a301-6f95858e61c3" />
 
 
 **Foto van studenten pagina op dekstop en mobile.**
 
-<img width="492" height="782" alt="Visitekaartjes pagina - mobile" src="https://github.com/user-attachments/assets/dc69eafa-458f-4148-b417-4b1e4bc83fdd" />
-<img width="1897" height="861" alt="Visitekaartjes pagina - desktop" src="https://github.com/user-attachments/assets/391f3022-da1e-42fe-bda0-2693df51e27e" />
+<img width="1902" height="861" alt="visitekaartjes pagina - desktop" src="https://github.com/user-attachments/assets/d132c5e8-da57-4874-a740-a931229743ce" />
+<img width="367" height="778" alt="visitekaartjes pagina - mobile" src="https://github.com/user-attachments/assets/4e1b9462-b01a-483d-a024-e9634a6b6f96" />
 
 
 
