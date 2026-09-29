@@ -124,7 +124,7 @@
 
             /* Styling voor het stukje tekst in de container dus het item */
                 .item {
-                    flex: 1;
+                    flex-grow: 1;
                     border-right: 1px solid lightgray;
                     align-content: center;
                     text-align: center;
