@@ -6,7 +6,7 @@ In deze squad page leer je de eerstejaar studenten van FDND beter kennen en je l
 ## Inhoudsopgave
 
 * [Beschrijving](#beschrijving)
-* Gebruik]
+* Gebruik
 * Etalage
 * Kenmerken
 * Ons Team
