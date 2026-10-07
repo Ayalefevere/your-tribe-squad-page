@@ -5,12 +5,12 @@ In deze squad page leer je de eerstejaar studenten van FDND beter kennen en je l
 
 ## Inhoudsopgave
 
-* Beschrijving
-* Gebruik
-* Etalage
-* Kenmerken
-* Ons Team
-* Bronnen
+* [Beschrijving](#beschrijving)
+* [Gebruik] ([#gebruik](https://github.com/Ayalefevere/your-tribe-squad-page/edit/main/README.md#beschrijving))
+* [Etalage] (#etalage)
+* [Kenmerken] (#kenmerken)
+* [Ons Team] (#onsteam)
+* [Bronnen] (#bronnen)
 
 ## Beschrijving
 Dit is een squad page gemaakt door eerstejaars studenten van de opleiding Frontend Design & Development 2026/27. De squad page bestaat uit 3 pagina's: home, Amstelcampus en studenten. Door de visitekaartjes van de studenten op een pagina te zetten heb je een mooi overzicht wie er in onze squad zit en je vindt informatie en locaties van de Amstelcampus. De website is responsive en eerst gemaakt en ontwerpen op desktop en daarna voor mobile.
